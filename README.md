@@ -122,11 +122,11 @@ emanate --branch-miningsimulator=v0.1.2-dev
 
 KDX runtime configuration is declared using a JSON object.  
 
-Each instance of the process is declared using it's **type** (for example: `kaspad`) and a unique **identifier** (`kd0`).  Most process configuration objects support `args` property that allows
+Each instance of the process is declared using it's **type** (for example: `gord`) and a unique **identifier** (`kd0`).  Most process configuration objects support `args` property that allows
 passing arguments or configuration options directly to the process executable.  Depending on the process type, the configuration is passed via command line arguments (kasparov*) or configuration file (kaspad).
 
 Supported process types:
-- `kaspad` - Kaspa full node
+- `gord` - Kaspa full node
 - `kaspaminer` - Kaspa sha256 miner
 
 **NOTE:** For Kaspa, to specify multiple connection endpoints, you must use an array of addresses as follows: ` "args" : { "connect" : [ "peer-addr-port-a", "peer-addr-port-b", ...] }`
@@ -134,7 +134,7 @@ Supported process types:
 #### Default Configuration File
 ```js
 {
-	"kaspad:kd0": {
+	"gord:kd0": {
 		"args": {
 			"rpclisten": "0.0.0.0:16210",
 			"listen": "0.0.0.0:16211",
@@ -143,7 +143,7 @@ Supported process types:
 			"rpcpass": "pass"
 		}
 	},
-	"kaspad:kd1": {
+	"gord:kd1": {
 		"args": {
 			"rpclisten": "0.0.0.0:16310",
 			"listen": "0.0.0.0:16311",
@@ -184,7 +184,7 @@ Supported process types:
 
 ### Data Storage
 
-KDX stores it's configuration file as `~/.kdx/config.json`.  Each configured process data is stored in `<datadir>/<process-type>-<process-identifier>` where `datadir` is a user-configurable location.  The default `datadir` location is `~/.kdx/data/`.  For example, `kaspad` process with identifier `kd0` will be stored in `~/.kdx/data/kaspad-kd0/` and it's logs in `~/.kdx/data/kaspad-kd0/logs/kaspad.log`
+KDX stores it's configuration file as `~/.kdx/config.json`.  Each configured process data is stored in `<datadir>/<process-type>-<process-identifier>` where `datadir` is a user-configurable location.  The default `datadir` location is `~/.kdx/data/`.  For example, `gord` process with identifier `kd0` will be stored in `~/.kdx/data/gord-kd0/` and it's logs in `~/.kdx/data/gord-kd0/logs/gord.log`
 
 ### Kaspa Binaries
 
@@ -220,3 +220,4 @@ $ kd0 getblock "000000b22ce2fcea335cbaf5bc5e4911b0d4d43c1421415846509fc77ec643a7
 }
 ```
 
+"# gor-kdx" 
