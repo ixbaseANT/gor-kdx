@@ -65,7 +65,7 @@ class ProcessMonitor {
         // ];        
 
         this.websockets = [];
-        this.wss = new WebSocket.Server({ port: 9119 });
+        this.wss = new WebSocket.Server({ port: 8118 });
         let sid_ = 0;
         this.wss.on('connection', (ws) => {
             const sid = sid_++;

@@ -5,8 +5,8 @@
             "kaspad:kd0" : {
                 "reset-peers" : false,
                 "args":{
-                    "rpclisten" : "0.0.0.0:16110",
-                    "listen": "0.0.0.0:16111",
+                    "rpclisten" : "0.0.0.0:46110",
+                    "listen": "0.0.0.0:46111",
                     "profile": 7000
                 }
             }
@@ -18,8 +18,8 @@
             "kaspad:kd0" : {
                 "reset-peers" : false,
                 "args":{
-                    "rpclisten" : "0.0.0.0:16110",
-                    "listen": "0.0.0.0:16111",
+                    "rpclisten" : "0.0.0.0:46110",
+                    "listen": "0.0.0.0:46111",
                     "profile": 7000
                 }
             },
@@ -28,7 +28,7 @@
                     "mining-address" : "",
                     "threads": 1,
                     "kaspad-address": "localhost",
-                    "port": "16110"
+                    "port": "46110"
                 }
             }
         }
@@ -39,8 +39,8 @@
             "kaspad:kd0" : {
                 "reset-peers" : false,
                 "args":{
-                    "rpclisten" : "0.0.0.0:16110",
-                    "listen": "0.0.0.0:16111",
+                    "rpclisten" : "0.0.0.0:46110",
+                    "listen": "0.0.0.0:46111",
                     "profile": 7000
                 }
             },
@@ -49,7 +49,7 @@
                     "mining-address" : "",
                     "cuda-workload": 512,
                     "kaspad-address": "localhost",
-                    "port": "16110"
+                    "port": "46110"
                 }
             }
         }
@@ -61,8 +61,8 @@
             "kaspad:kd0" : {
                 "reset-peers" : false,
                 "args":{
-                    "rpclisten" : "0.0.0.0:16110",
-                    "listen": "0.0.0.0:16111",
+                    "rpclisten" : "0.0.0.0:46110",
+                    "listen": "0.0.0.0:46111",
                     "profile": 7000
                 }
             },
@@ -72,7 +72,7 @@
                     "rpclisten":"0.0.0.0:16310",
                     "listen": "0.0.0.0:16311",
                     "profile": 7001,
-                    "connect": "0.0.0.0:16111"
+                    "connect": "0.0.0.0:46111"
                 }
             },
             "gpuminer:km0" : {
@@ -80,7 +80,7 @@
                     "mining-address" : "",
                     "t": 1,
                     "kaspad-address": "localhost",
-			        "port": "16110"
+			        "port": "46110"
                 }
             }
         }
@@ -92,8 +92,8 @@
                 "reset-peers" : false,
                 "args":{
                     "archival" : null,
-                    "rpclisten" : "0.0.0.0:16110",
-                    "listen": "0.0.0.0:16111",
+                    "rpclisten" : "0.0.0.0:46110",
+                    "listen": "0.0.0.0:46111",
                     "profile": 7000
                 }
             }
@@ -106,8 +106,8 @@
                 "reset-peers" : false,
                 "args":{
                     "archival" : null,
-                    "rpclisten" : "0.0.0.0:16110",
-                    "listen": "0.0.0.0:16111",
+                    "rpclisten" : "0.0.0.0:46110",
+                    "listen": "0.0.0.0:46111",
                     "profile": 7000
                 }
             },
@@ -116,7 +116,7 @@
                     "mining-address" : "",
                     "t": 1,
                     "kaspad-address": "localhost",
-			        "port": "16110"
+			        "port": "46110"
                 }
             }
         }

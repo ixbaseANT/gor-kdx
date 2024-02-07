@@ -26,7 +26,7 @@
     ".templates"
   ],
   "dependencies": {
-    "@aspectron/flow-app": "*",
+    "@aspectron/flow-app": "^0.0.4",
     "@aspectron/flow-async": "*",
     "@aspectron/flow-logger": "*",
     "@aspectron/flow-rpc": "*",
